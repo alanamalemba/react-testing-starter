@@ -33,7 +33,6 @@ describe("UserAccount", () => {
 
   it("should render user's name", () => {
     render(<UserAccount user={normalUser} />);
-    screen.debug();
 
     const nameElement = screen.getByText(normalUser.name);
     expect(nameElement).toBeInTheDocument();

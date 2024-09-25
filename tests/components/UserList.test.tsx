@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { getByRole, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { User } from "../../src/entities";
 import UserList from "../../src/components/UserList";
 
